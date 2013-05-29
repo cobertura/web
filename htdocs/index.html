@@ -76,7 +76,11 @@ We've released Cobertura 2.0 which contains some nice features:
 <ul>
 <li>
 New IgnoreTrivial switch that tells Cobertura to ignore the following in the coverage report: Getter methods that simply read a class field; Setter methods that set a class field; Constructors that only set class fields and call a super class constructor.
+</li>
+<li>
 New IgnoreMethodAnnotation switch used to specify an annotation that, when present on a method, will cause Cobertura to ignore the method in the coverage report. (Patch 3010530) (Tad Smith)
+</li>
+<li>
 Bug Fix Patch 3010530 from 1576631 (Scott Frederick/Tad Smith)
 </li>
 <li>
